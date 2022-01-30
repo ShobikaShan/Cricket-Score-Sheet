@@ -1,0 +1,30 @@
+#include"declaration.h"
+#include"welcome.h"
+#include"menu.h"
+#include"newsscoresheet.h"
+ int main()
+ {
+ int a,key;
+ char b;
+ FILE *fnew;
+ char lastinput;
+ while(TRUE)
+ {
+ initialiseconsolehandles()
+ Welcome();
+ system(cls);
+ memu();
+ ch=getch();
+  {
+   case1:
+     fileopen(ch);
+   case2:
+     fileopen(ch);
+     getch();
+   case3:
+     system("cls");
+     exit(0);
+   }
+  }
+ }
+ 
